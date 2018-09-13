@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Functions</title>
+	<script>
+		function getText() {
+			document.getElementById("div1").innerHTML =
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do" +
+				"eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim" +
+				"minim veniam, quis nostrud exercitation ullamco laboris nisi utd" +
+				"ex ea commodo consequat. Duis aute irure dolor in reprehenderit in" +
+				"voluptate velit esse cillum dolore eu fugiat nulla pariatur." +
+				"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui" +
+				"officia deserunt mollit anim id est laborum.";
+		}
+
+		function removeText(){
+			document.getElementById("div1").innerHTML = '';
+		}
+	</script>
+	
+</head>
+<body>
+	<div id="div1"></div>
+	<button type="button" name="Get Text" onclick="getText()">Get Text</button>
+	<button type="button" onclick="removeText()">Remove Text</button>
+</body>
+</html>
