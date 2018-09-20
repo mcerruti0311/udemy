@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Best Cities</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+      var bestCities = ["Seattle", "Los Angeles", "Livermore"];
+      var matchFound = false;
+      var userInput = prompt("What is your city?");
+
+      for(i = 0; i <= bestCities.length; i++) {
+        if(userInput === bestCities[i]) {
+          matchFound = true;
+          alert("Your in one of the best cities");
+        } else {
+            alert("Your city was not found");
+            break;
+        }
+      }
+
+    </script>
+
+  </body>
+</html>

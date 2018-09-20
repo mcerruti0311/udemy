@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Arrays Insert Extract</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+        var cars = ["BMW", "Mercedes","Honda","Datsun"];
+
+        // removes first item
+        // cars.shift();
+        // adds item to the beginning of the array
+        // cars.unshift("Hyundai","Ford");
+
+        // splice (start at, remove number of items, add items at start at)
+        // cars.splice(2,2,"CAT","DOG")
+
+        // Javascript array slice() method extracts a section of an array and returns a new array.
+        // array.slice( begin [,end] );
+
+        var sliceArray = cars.slice(2,4);
+
+        // alert(cars);
+       alert(sliceArray);
+    </script>
+  </body>
+</html>
